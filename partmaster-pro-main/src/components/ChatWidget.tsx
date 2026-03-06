@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { useLanguage } from "@/contexts/LanguageContext";
 import ReactMarkdown from "react-markdown";
 
-const GOOGLE_API_KEY = "AIzaSyBvKURFRywAg5aHKmqpZHSjf15uMIvMJfg";
+const GOOGLE_API_KEY = "your_api_key";
 
 interface Message {
   role: "user" | "assistant";
